@@ -17,11 +17,13 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: #e8eaed;
+  background: #202124;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background: #e8eaed;
+    color: #202124;
+  }
 }

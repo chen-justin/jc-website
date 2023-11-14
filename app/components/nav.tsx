@@ -25,9 +25,9 @@ export default function Nav() {
               <>
                 <FontAwesomeIcon
                   className="fa-lg"
-                  icon={theme == "dark" ? faMoon : faSun}
+                  icon={currentTheme == "dark" ? faMoon : faSun}
                   title="Toggle Light/Dark Mode"
-                  aria-label={theme}
+                  aria-label={currentTheme}
                 />
               </>
             }

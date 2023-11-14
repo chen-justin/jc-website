@@ -13,7 +13,9 @@ export default function Home() {
             <h1 className="text-4xl font-bold tracking-wider">
               Hi, I'm Justin
             </h1>
-            <p className="text-lg tracking-wide"><b>Software Engineer</b> currently working at <b>Chewy</b></p>
+            <p className="text-lg tracking-wide">
+              <b>Software Engineer</b> currently working at <b>Chewy</b>
+            </p>
             <a
               target="_blank"
               download="Justin-Chen_Resume.pdf"

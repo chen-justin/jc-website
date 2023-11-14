@@ -11,7 +11,7 @@ export default function Home() {
         <main className="max-w-md mx-auto flex flex-col flex-grow justify-center md:max-w-2xl">
           <div className="flex flex-col flex-grow justify-center space-y-2">
             <h1 className="text-4xl font-bold tracking-wider">
-              Hi, I'm Justin
+              Hi, I&apos;m Justin
             </h1>
             <p className="text-lg tracking-wide">
               <b>Software Engineer</b> currently working at <b>Chewy</b>

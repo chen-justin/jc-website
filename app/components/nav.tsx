@@ -7,7 +7,7 @@ import { useTheme } from "next-themes";
 export default function Nav() {
   const { systemTheme, theme, setTheme } = useTheme();
   const currentTheme = theme === "system" ? systemTheme : theme;
-
+console.log(currentTheme);
   return (
     <nav className="flex flex-row justify-end">
       <ol className="flex items-center space-x-4">
@@ -17,7 +17,7 @@ export default function Nav() {
         <li>
           <button
             onClick={() =>
-              theme == "dark" ? setTheme("light") : setTheme("dark")
+              currentTheme == "dark" ? setTheme("light") : setTheme("dark")
             }
             className="w-8 h-8"
           >

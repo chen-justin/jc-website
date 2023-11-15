@@ -21,7 +21,7 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap py-2 space-x-6 justify-center">
               <a
-                className="transition ease-in-out duration-200 p-2 text-center border border-gray-900 dark:border-white border-4 flex-grow basis-0 hover:-translate-y-1"
+                className="transition-transform ease-in-out duration-200 p-2 text-center border border-gray-900 dark:border-white border-4 flex-grow basis-0 hover:-translate-y-1"
                 target="_blank"
                 download="Justin-Chen_Resume.pdf"
                 href="https://chen-justin.github.io/resume/resume.pdf"
@@ -29,7 +29,7 @@ export default function Home() {
                 Resume
               </a>
               <a
-                className="transition ease-in-out duration-200 p-2 text-center border border-gray-900 dark:border-white border-4 flex-grow basis-0 hover:-translate-y-1"
+                className="transition-transform ease-in-out duration-200 p-2 text-center border border-gray-900 dark:border-white border-4 flex-grow basis-0 hover:-translate-y-1"
                 href="mailto:chennickyjustin@gmail.com"
               >
                 Email

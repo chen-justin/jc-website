@@ -21,7 +21,7 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap py-2 space-x-6 justify-center">
               <a
-                className="p-2 text-center border border-gray-900 dark:border-white border-4 flex-grow basis-0"
+                className="transition ease-in-out duration-200 p-2 text-center border border-gray-900 dark:border-white border-4 flex-grow basis-0 hover:-translate-y-1"
                 target="_blank"
                 download="Justin-Chen_Resume.pdf"
                 href="https://chen-justin.github.io/resume/resume.pdf"
@@ -29,7 +29,7 @@ export default function Home() {
                 Resume
               </a>
               <a
-                className="p-2 text-center border border-gray-900 dark:border-white border-4 flex-grow basis-0"
+                className="transition ease-in-out duration-200 p-2 text-center border border-gray-900 dark:border-white border-4 flex-grow basis-0 hover:-translate-y-1"
                 href="mailto:chennickyjustin@gmail.com"
               >
                 Email
@@ -39,7 +39,7 @@ export default function Home() {
               <a
                 href="https://github.com/chen-justin/"
                 title="Justin Chen's GitHub"
-                className="transition ease-in-out duration-300 hover:scale-125"
+                className="transition-transform duration-200 hover:scale-125"
                 target="_blank"
               >
                 <FontAwesomeIcon className="fa-2xl" icon={faGithubSquare} />
@@ -47,7 +47,7 @@ export default function Home() {
               <a
                 href="https://www.linkedin.com/in/chen-justin/"
                 title="Justin Chen's LinkedIn"
-                className="transition ease-in-out duration-300 hover:scale-125"
+                className="transition-transform duration-200 hover:scale-125"
                 target="_blank"
               >
                 <FontAwesomeIcon className="fa-2xl" icon={faLinkedin} />

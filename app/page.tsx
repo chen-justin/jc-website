@@ -24,7 +24,7 @@ export default function Home() {
                 className="transition-transform ease-in-out duration-200 p-2 text-center border border-gray-900 dark:border-white border-4 flex-grow basis-0 hover:-translate-y-1"
                 target="_blank"
                 download="Justin-Chen_Resume.pdf"
-                href="https://chen-justin.github.io/resume/resume.pdf"
+                href="https://chen-justin.github.io/resume/Justin-Chen_Resume.pdf"
               >
                 Resume
               </a>

@@ -24,7 +24,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <link rel="icon" href="./icon.png" />
       <body className={font.className}>{children}</body>
     </html>
   );
